@@ -1,0 +1,154 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  .logo {
+    padding: 5px 5px;
+  }
+  .address {
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .address h3 {
+    font-size: 1rem;
+  }
+  .address p {
+    font-size: 0.8rem;
+  }
+
+  .search-box button {
+    padding: 5px;
+  }
+  .header-btn {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    border-top: 1px solid #ebebeb;
+    background-color: #fffaec;
+    justify-content: center;
+  }
+  .bannerSection {
+    display: none;
+  }
+  .orderBanner {
+    flex-direction: column;
+  }
+  .orderBannerIrems {
+    margin-inline: 20px;
+  }
+
+  .categoryItems {
+    flex-basis: 25%;
+  }
+
+  .search-box input {
+    padding: 11px;
+  }
+  .productRow {
+    justify-content: center;
+  }
+  .productItems {
+    flex-basis: 45%;
+  }
+  footer {
+    padding: 0;
+    margin-bottom: 3.7rem;
+  }
+  .footer-mid-row1 {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .Categories ul {
+    flex-basis: 30%;
+  }
+  .footer-mid-row2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .address h3 {
+    font-size: 0.8rem;
+  }
+  .address p {
+    font-size: 0.4rem;
+  }
+  .logo {
+    padding: 0;
+  }
+  .header-btn {
+    display: flex;
+    margin-right: 11px;
+    gap: 10px;
+  }
+  .address {
+    padding: 10px;
+  }
+  .header-btn button:last-child {
+    font-size: 0.8rem;
+  }
+  .search-box input {
+    padding: 11px;
+  }
+  .search-box input {
+    padding: 11px;
+  }
+  .productRow {
+    justify-content: center;
+  }
+  .productItems {
+    flex-basis: 22%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1004px) {
+  .address h3 {
+    font-size: 1rem;
+  }
+  .address p {
+    font-size: 0.7rem;
+  }
+  .logo {
+    padding: 0;
+  }
+  .header-btn {
+    display: flex;
+    margin-right: 11px;
+    gap: 10px;
+  }
+  .address {
+    padding: 10px;
+  }
+
+  .header-btn button {
+    padding: 13px;
+    font-size: 12px;
+  }
+  .categoryItems {
+    flex-basis: 20%;
+  }
+  .search-box input {
+    padding: 11px;
+  }
+  .search-box input {
+    padding: 11px;
+  }
+  .productRow {
+    justify-content: center;
+  }
+  .productItems {
+    flex-basis: 20%;
+  }
+}
